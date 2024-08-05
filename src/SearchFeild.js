@@ -42,11 +42,14 @@ function SearchFeild() {
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6 offset-md-3">
+          <div className="Heading">
+              <h1 className="mb-3">Search any fruits</h1>
+            </div>
             <div className="input-group">
               <input
                 type="text"
                 className="form-control"
-                placeholder="Search..."
+                placeholder="Search any fruits..."
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
               />
