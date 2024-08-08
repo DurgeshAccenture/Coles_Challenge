@@ -1,1 +1,1 @@
-# Coles_challenge
+# React JS Coles_challenge 
